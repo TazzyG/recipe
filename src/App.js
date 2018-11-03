@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 // import logo from "./logo.svg";
+
 import "./App.css";
 
 class App extends Component {
+  state = {
+    imageUrl: "https://picsum.photos/200/?random"
+  };
   render() {
     return (
       <React.Fragment>
@@ -102,6 +106,11 @@ class App extends Component {
               <div className="row">
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=0"}
+                      alt="car image cap"
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -130,6 +139,11 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=1"}
+                      alt="car image cap"
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -158,91 +172,11 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
-                    <div className="card-body">
-                      <p className="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer.
-                      </p>
-                      <div className="d-flex justify-content-between align-items-center">
-                        <div className="btn-group">
-                          <button
-                            type="button"
-                            className="btn btn-sm btn-outline-secondary"
-                          >
-                            View
-                          </button>
-                          <button
-                            type="button"
-                            className="btn btn-sm btn-outline-secondary"
-                          >
-                            Edit
-                          </button>
-                        </div>
-                        <small className="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4">
-                  <div className="card mb-4 shadow-sm">
-                    <div className="card-body">
-                      <p className="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer.
-                      </p>
-                      <div className="d-flex justify-content-between align-items-center">
-                        <div className="btn-group">
-                          <button
-                            type="button"
-                            className="btn btn-sm btn-outline-secondary"
-                          >
-                            View
-                          </button>
-                          <button
-                            type="button"
-                            className="btn btn-sm btn-outline-secondary"
-                          >
-                            Edit
-                          </button>
-                        </div>
-                        <small className="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card mb-4 shadow-sm">
-                    <div className="card-body">
-                      <p className="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer.
-                      </p>
-                      <div className="d-flex justify-content-between align-items-center">
-                        <div className="btn-group">
-                          <button
-                            type="button"
-                            className="btn btn-sm btn-outline-secondary"
-                          >
-                            View
-                          </button>
-                          <button
-                            type="button"
-                            className="btn btn-sm btn-outline-secondary"
-                          >
-                            Edit
-                          </button>
-                        </div>
-                        <small className="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=2"}
+                      alt="card image cap"
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -272,6 +206,11 @@ class App extends Component {
 
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=3"}
+                      alt="card image cap"
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -300,6 +239,11 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=4"}
+                      alt="card image cap"
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -328,6 +272,111 @@ class App extends Component {
                 </div>
                 <div className="col-md-4">
                   <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=5"}
+                      alt="card image cap"
+                    />
+                    <div className="card-body">
+                      <p className="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <div className="btn-group">
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-outline-secondary"
+                          >
+                            View
+                          </button>
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-outline-secondary"
+                          >
+                            Edit
+                          </button>
+                        </div>
+                        <small className="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-4">
+                  <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=5"}
+                      alt="card image cap"
+                    />
+                    <div className="card-body">
+                      <p className="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <div className="btn-group">
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-outline-secondary"
+                          >
+                            View
+                          </button>
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-outline-secondary"
+                          >
+                            Edit
+                          </button>
+                        </div>
+                        <small className="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=6"}
+                      alt="card image cap"
+                    />
+                    <div className="card-body">
+                      <p className="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <div className="btn-group">
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-outline-secondary"
+                          >
+                            View
+                          </button>
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-outline-secondary"
+                          >
+                            Edit
+                          </button>
+                        </div>
+                        <small className="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="card mb-4 shadow-sm">
+                    <img
+                      className="card-img-top"
+                      src={this.state.imageUrl + "image=7"}
+                      alt="card image cap"
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a

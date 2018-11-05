@@ -5,7 +5,8 @@ import "./App.css";
 
 class App extends Component {
   state = {
-    imageUrl: "https://picsum.photos/200/?random"
+    imageUrl: "https://picsum.photos/200/?random",
+    image_numbers: [0, 1, 2, 3, 4, 5, 6]
   };
   render() {
     return (
@@ -17,11 +18,11 @@ class App extends Component {
                 <div className="col-sm-8 col-md-7 py-4">
                   <h4 className="text-white">About</h4>
                   <p className="text-muted">
-                    Add some information about the album below, the author, or
-                    any other background context. Make it a few sentences long
-                    so folks can pick up some informative tidbits. Then, link
-                    them off to some social networking sites or contact
-                    information.
+                    This site is about my Auto Immune Protocol Journey. It is a
+                    go to place to find recipes and places that meet the
+                    requirements for a healthy paleo, keto, raw food,
+                    vegetarial, gluten free, diet. We went through our favorite
+                    recipes and places and have tried them all.
                   </p>
                 </div>
                 <div className="col-sm-4 offset-md-1 py-4">
@@ -86,16 +87,19 @@ class App extends Component {
             <div className="container">
               <h1 className="jumbotron-heading">Album example</h1>
               <p className="lead text-muted">
-                Something short and leading about the collection below—its
-                contents, the creator, etc. Make it short and sweet, but not too
-                short so folks don't simply skip over it entirely.
+                A collection of our favorite recipes and places for enjoying
+                food while following the autoimmune protocol, no sugar, no
+                wheat, no soy, no dairy. Something short and leading about the
+                collection below—its contents, the creator, etc. Make it short
+                and sweet, but not too short so folks don't simply skip over it
+                entirely.
               </p>
               <p>
                 <a href="#" className="btn btn-primary my-2">
-                  Main call to action
+                  Find a Recipe
                 </a>
                 <a href="#" className="btn btn-secondary my-2">
-                  Secondary action
+                  Post a Recipe
                 </a>
               </p>
             </div>
